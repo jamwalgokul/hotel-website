@@ -1,0 +1,269 @@
+/* /* *{
+    padding: 0;
+    margin: 0;
+} */
+
+
+.FirstPage{
+    height: 100vh;
+    background-image: url(firstpage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+}
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: end; 
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+.Content1{
+    margin: 250px;
+    text-align: center;
+}
+.Enjoy{
+    color: yellow;
+  font-size: 50px;
+}
+.lorem1{
+    color: yellow;
+}
+.SecondPage{
+    display: flex;
+    
+}
+.box1{
+  position: relative;
+    height: 500px;
+    width: 1000px;
+    background-image: url(SecondPagebox1.jpg);
+    background-size: cover;
+
+}
+.box2{ 
+   
+   
+    position: absolute;
+    left: 1000px;
+    padding: 0;
+    margin: 0;
+    height:500px ;
+    width: 520px;
+  
+   
+    background-color: rgba(139, 70, 5, 0.712);
+
+}
+.page2content{
+    text-align: center;
+    margin-top: 100px;
+} 
+
+
+.contactInfo{
+    display: block;
+    margin-top: 10px;
+    text-align: start;
+}
+.formContainer{
+    margin-left: 10px;
+    
+}
+
+.gokul{
+    display: flex;
+    justify-content: start;
+}
+.imageME{
+    
+    height: 300px;
+    width: 300px;
+    background-image: url("firstpage.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 50%;
+    
+}
+.hello1:hover{
+    background-color: rgba(80, 75, 75, 0.861);
+    color: black;
+}
+.hello1{
+    background-color: rgb(210, 123, 17);
+    border: 0px;
+}
+.hello2:hover{
+    background-color: rgba(80, 75, 75, 0.861);
+    color:black;
+}
+.hello2{
+    background-color: rgb(210, 123, 17);
+    border: 0px;
+}
+.contactbg{
+    background-image: url(reception.jpg);
+    height: 600px;
+    width: 1500px;
+    background-size: cover ;
+
+}
+.hell03{
+    border: 0px;
+   
+   
+
+}
+.hello3:hover{
+    background-color: rgb(130, 123, 123);
+    color: black;
+    
+}
+.page3{
+    background-color: rgb(74, 72, 72);
+    height: 300px;
+     display: flex;
+    justify-content: space-between;
+    flex-wrap: column-reverse;
+    align-items: center;
+    
+    
+}
+.contentgoku {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-content h3 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+
+.footer-bottom {
+    padding: 10px 0;
+    background: #222;
+    margin-top: 20px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-to-top:hover {
+    background: #555;
+}
+
+body.scroll-up .back-to-top {
+    display: block;
+}
+.review{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 205, 205);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(93, 75, 75, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #84828219;
+}
+
+.customer-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.customer-review {
+    max-width: 600px;
+}
+
+.customer-review p {
+    margin-bottom: 10px;
+}
+
+.customer-name {
+    font-weight: bold;
+    color: #555;
+}
+
